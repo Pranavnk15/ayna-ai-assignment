@@ -76,6 +76,11 @@ userRouter.post("/signin", async (req, res) => {
 
 })
 
+userRouter.post("/logout", authMiddleware, (req, res) => {
+    res.status(200).json({
+        message: "User logged out successfully",
+    });
+});
 
 
 
