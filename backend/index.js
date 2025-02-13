@@ -2,7 +2,7 @@ const express = require('express');
 const { default: mongoose } = require('mongoose');
 const dotenv = require('dotenv');
 const { userRouter } = require('./routes/user');
-const { setUpWebsocket } = require('./chat');
+const { setUpWebsocket } = require('./chat/chat');
 const http = require('http');
 
 dotenv.config();
