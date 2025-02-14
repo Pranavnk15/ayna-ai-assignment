@@ -9,7 +9,7 @@ export default function Signup() {
 
     async function handleSubmit() {
         try {
-            const response = await axios.post("http://localhost:3000/api/v1/user/signup", {
+            const response = await axios.post("https://chat-app-backend-two-lime.vercel.app/api/v1/user/signup", {
                 username,
                 password,
             });

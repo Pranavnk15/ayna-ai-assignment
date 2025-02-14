@@ -10,7 +10,7 @@ export default function Signin() {
 
     async function handleSubmit() {
         try {
-            const response = await axios.post("http://localhost:3000/api/v1/user/signin", {
+            const response = await axios.post("https://chat-app-backend-two-lime.vercel.app/api/v1/user/signin", {
                 username,
                 password,
             });
