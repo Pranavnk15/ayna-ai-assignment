@@ -45,7 +45,7 @@ export default function ChatApp() {
             alert("You must be logged in to chat");
             navigate("/signin");
         }
-        socketRef.current = new WebSocket("ws://localhost:3000", [token]);
+        socketRef.current = new WebSocket(`wss://chat-app-backend-two-lime.vercel.app/?token=${token}`);
 
         socketRef.current.onopen = () => {
             setWsStatus("Connected");

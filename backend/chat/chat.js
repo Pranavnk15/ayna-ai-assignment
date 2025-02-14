@@ -10,7 +10,7 @@ function setUpWebsocket(server) {
     const wss = new WebSocketServer({ server });
 
     wss.on("connection", (socket, req) => {
-        const token = req.headers["sec-websocket-protocol"];
+        const token = req.url.split('?token=')[1]; // Extract the token from the query string
         if (!token) {
             socket.close(400, "Authentication Required");
             return;
