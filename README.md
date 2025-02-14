@@ -26,6 +26,7 @@ This project is about building a **Real-Time Chat Application** with **user auth
 - **Authentication**: User sign-up, login, and session management using JWT.
 - **Responsive Design**: The application adapts to different screen sizes, ensuring optimal user experience across devices.
 - **Sessions**: The user can switch to different sessions.
+- **LocalStorage**: The previous chat are saved in the local storage, to keep chats persistent.
 
 ## Hosted Link
 The application is hosted and can be accessed at:  
