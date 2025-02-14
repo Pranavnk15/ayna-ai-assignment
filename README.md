@@ -20,7 +20,8 @@ This project is about building a **Real-Time Chat Application** with **user auth
 - **Real-time Communication**: Users can send and receive messages instantly via WebSocket.
 - **Authentication**: User sign-up, login, and session management using JWT.
 - **Responsive Design**: The application adapts to different screen sizes, ensuring optimal user experience across devices.
+- **Sessions**: The user can switch to different sessions.
 
 ## Hosted Link
 The application is hosted and can be accessed at:  
-[Your hosted link here]
+[https://chat-app-frontend-lac-three.vercel.app/]
