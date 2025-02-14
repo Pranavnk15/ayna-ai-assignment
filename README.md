@@ -16,6 +16,11 @@ This project is about building a **Real-Time Chat Application** with **user auth
 - **TailwindCSS** for styling
 - **React-Router-Dom** for navigation
 
+## Hosting
+- **Backend**: Backend is hosted on vercel.
+- **Websocket**: Websocket server is hosted on Render.
+- **Frontend**: Frontend is hosted on vercel and connected with backend.
+
 ## Key Features:
 - **Real-time Communication**: Users can send and receive messages instantly via WebSocket.
 - **Authentication**: User sign-up, login, and session management using JWT.
